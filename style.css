@@ -1,0 +1,310 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fdfdfd;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  nav {
+    padding: 20px;
+    background-color: #ffe6ef;
+    text-align: center;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #c2185b;
+    font-weight: bold;
+  }
+  
+  h1 {
+    color: #880e4f;
+    text-align: center;
+  }
+  
+  form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff0f5;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #c2185b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ad1457;
+  }
+  
+  .destacado {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #880e4f;
+    margin: 40px auto;
+    max-width: 800px;
+    line-height: 1.6;
+  }
+  
+  .imagem-loja {
+    display: block;
+    margin: 30px auto;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .hero-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .message {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    z-index: 10;
+  }
+  
+  nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px 0;
+    background-color: black;
+    text-align: center;
+    z-index: 20;
+  }
+  
+  nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  }
+  
+  nav a:hover {
+    background-color: #f1f1f1;
+    color: #c2185b;
+  }
+  
+  nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    text-transform: uppercase;
+  }
+  
+  .store-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5em;
+    font-weight: bold;
+    color: white;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);
+    z-index: 10;
+  }
+  
+  .store-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Playfair Display', serif;
+    font-size: 5em;
+    font-weight: 700;
+    color: #d8c3a5;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+  }
+  
+  .sobre-container {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .sobre-titulo {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #000;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .texto-sobre {
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    min-height: 100vh;
+  }
+  
+  .sobre-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+  
+  .sobre-titulo {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #000;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .texto-sobre {
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    max-width: 800px;
+    line-height: 1.6;
+  }
+  
+  .estilos-container {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  .estilos-titulo {
+    font-size: 2em;
+    margin-bottom: 40px;
+    font-family: 'Playfair Display', serif;
+    color: #000;
+  }
+  
+  .estilos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .estilo-item {
+    width: 220px;
+  }
+  
+  .estilo-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .estilo-item p {
+    margin-top: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    color: #333;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("img.fundo-sobre.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+  
+  .sobre-container, .estilos-container {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 40px;
+    border-radius: 10px;
+    margin: 20px;
+  }
+  
+  .sobre-container,
+  .estilos-container {
+    background-color: #fbecc0;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1000px;
+  }
